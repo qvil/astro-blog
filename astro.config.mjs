@@ -8,8 +8,7 @@ import icon from "astro-icon";
 import { remarkReadingTime } from "./src/utils/all";
 
 export default defineConfig({
-  site: 'https://qvil.github.io',
-  base: 'astro-blog',
+  site: 'https://blog.qvil.dev/',
   markdown: {
     remarkPlugins: [remarkReadingTime],
     rehypePlugins: ["rehype-plugin-image-native-lazy-loading"],
